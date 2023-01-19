@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>Collage Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link href="style.css" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+<center>
+    <h1>Collage Web App</h1>
+    <hr>
+<div>
+    <h4>As soon as the popup appears, please click Allos. After you've spoken a command.</h4>
+    <h3>Say "take my selfie"</h3>
+    <label>Your voice output: </label>
+    <textarea class="form-control" id="textbox" readonly="true"></textarea>
+</div>
+    <button onclick="start()" class="btn btn-primary">Start</button>
+    <p>Press the Start button</p>
+
+    <label>Your webcam: </label>
+    <div id="camera"></div>
+
+    <br>
+
+    <label>Your selfie will display here: </label>
+    <div id="result1"><img src="https://images.unsplash.com/photo-1482685945432-29a7abf2f466?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTcxMTU5NzE&ixlib=rb-1.2.1&q=80" width="30%"></div>
+    <br>
+    <div id="result2"><img src="https://images.unsplash.com/photo-1639762681057-408e52192e55?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTcxMTYxMDE&ixlib=rb-1.2.1&q=80" width="30%"></div>
+    <br>
+    <div id="result3"><img src="https://images.unsplash.com/photo-1580835239846-5bb9ce03c8c3?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NzQwODkwMzU&ixlib=rb-4.0.3&q=80" width="30%"></div>
+</center>
+
+<script src="main.js"></script>
+</body>
+
+</html>
