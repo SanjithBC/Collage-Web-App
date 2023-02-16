@@ -5,3 +5,28 @@ body {
 #textbox {
     width: 40%;
 }
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 200;
+}
+
+h4 {
+    color: red;
+    font-family: comic;
+}
+
+#camera {
+    width: auto;
+    border-radius: 15%;
+    padding: 10%;
+    box-shadow: inset;
+}
+
+img {
+    width: 50%;
+    border-radius: 20%;
+    padding: 5px;
+    box-shadow: inset;
+}
